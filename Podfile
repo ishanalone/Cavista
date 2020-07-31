@@ -6,7 +6,8 @@ target 'CavistaAssignement' do
   use_frameworks!
 
   # Pods for CavistaAssignement
-
+    pod 'SnapKit', '~> 5.0.0'
+    pod 'Alamofire', '~> 5.2'
   target 'CavistaAssignementTests' do
     inherit! :search_paths
     # Pods for testing

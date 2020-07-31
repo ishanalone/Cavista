@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		275D9B8ECF675BC6A667C866 /* Pods_CavistaAssignement_CavistaAssignementUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4967FE9647B92AD96711940D /* Pods_CavistaAssignement_CavistaAssignementUITests.framework */; };
+		381CDB7AE11F156E92BACFD8 /* Pods_CavistaAssignement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5334E6B408AE557117796205 /* Pods_CavistaAssignement.framework */; };
 		5B40515E24D4746A0096AAF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40515D24D4746A0096AAF1 /* AppDelegate.swift */; };
 		5B40516024D4746A0096AAF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40515F24D4746A0096AAF1 /* SceneDelegate.swift */; };
 		5B40516224D4746A0096AAF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40516124D4746A0096AAF1 /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		5B40516A24D4746C0096AAF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B40516824D4746C0096AAF1 /* LaunchScreen.storyboard */; };
 		5B40517524D4746C0096AAF1 /* CavistaAssignementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40517424D4746C0096AAF1 /* CavistaAssignementTests.swift */; };
 		5B40518024D4746C0096AAF1 /* CavistaAssignementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40517F24D4746C0096AAF1 /* CavistaAssignementUITests.swift */; };
+		5E77AC36C6A183D9C6C0127B /* Pods_CavistaAssignementTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F9D6B253B91065A10623A6 /* Pods_CavistaAssignementTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4967FE9647B92AD96711940D /* Pods_CavistaAssignement_CavistaAssignementUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CavistaAssignement_CavistaAssignementUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5334E6B408AE557117796205 /* Pods_CavistaAssignement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CavistaAssignement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D5EF1CE3BF93650FDC2CF7 /* Pods-CavistaAssignementTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CavistaAssignementTests.debug.xcconfig"; path = "Target Support Files/Pods-CavistaAssignementTests/Pods-CavistaAssignementTests.debug.xcconfig"; sourceTree = "<group>"; };
+		53F9D6B253B91065A10623A6 /* Pods_CavistaAssignementTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CavistaAssignementTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B40515A24D4746A0096AAF1 /* CavistaAssignement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CavistaAssignement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B40515D24D4746A0096AAF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B40515F24D4746A0096AAF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		5B40517B24D4746C0096AAF1 /* CavistaAssignementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CavistaAssignementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B40517F24D4746C0096AAF1 /* CavistaAssignementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavistaAssignementUITests.swift; sourceTree = "<group>"; };
 		5B40518124D4746C0096AAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DC3B94F4BF375A3730CBD70 /* Pods-CavistaAssignement-CavistaAssignementUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CavistaAssignement-CavistaAssignementUITests.debug.xcconfig"; path = "Target Support Files/Pods-CavistaAssignement-CavistaAssignementUITests/Pods-CavistaAssignement-CavistaAssignementUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		75776B6DF7981D2C23EE7DD1 /* Pods-CavistaAssignement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CavistaAssignement.release.xcconfig"; path = "Target Support Files/Pods-CavistaAssignement/Pods-CavistaAssignement.release.xcconfig"; sourceTree = "<group>"; };
+		A3940D0FF760A9BCDAD99670 /* Pods-CavistaAssignement-CavistaAssignementUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CavistaAssignement-CavistaAssignementUITests.release.xcconfig"; path = "Target Support Files/Pods-CavistaAssignement-CavistaAssignementUITests/Pods-CavistaAssignement-CavistaAssignementUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C91CE12D6D945CCC40F35683 /* Pods-CavistaAssignement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CavistaAssignement.debug.xcconfig"; path = "Target Support Files/Pods-CavistaAssignement/Pods-CavistaAssignement.debug.xcconfig"; sourceTree = "<group>"; };
+		E8B54BFE279A752ABC366024 /* Pods-CavistaAssignementTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CavistaAssignementTests.release.xcconfig"; path = "Target Support Files/Pods-CavistaAssignementTests/Pods-CavistaAssignementTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				381CDB7AE11F156E92BACFD8 /* Pods_CavistaAssignement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E77AC36C6A183D9C6C0127B /* Pods_CavistaAssignementTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				275D9B8ECF675BC6A667C866 /* Pods_CavistaAssignement_CavistaAssignementUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4840D4F686B5A8FD483FD099 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5334E6B408AE557117796205 /* Pods_CavistaAssignement.framework */,
+				4967FE9647B92AD96711940D /* Pods_CavistaAssignement_CavistaAssignementUITests.framework */,
+				53F9D6B253B91065A10623A6 /* Pods_CavistaAssignementTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5B40515124D4746A0096AAF1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				5B40517324D4746C0096AAF1 /* CavistaAssignementTests */,
 				5B40517E24D4746C0096AAF1 /* CavistaAssignementUITests */,
 				5B40515B24D4746A0096AAF1 /* Products */,
+				AA418838AFA9EC13DB0C1A06 /* Pods */,
+				4840D4F686B5A8FD483FD099 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +155,20 @@
 			path = CavistaAssignementUITests;
 			sourceTree = "<group>";
 		};
+		AA418838AFA9EC13DB0C1A06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C91CE12D6D945CCC40F35683 /* Pods-CavistaAssignement.debug.xcconfig */,
+				75776B6DF7981D2C23EE7DD1 /* Pods-CavistaAssignement.release.xcconfig */,
+				5DC3B94F4BF375A3730CBD70 /* Pods-CavistaAssignement-CavistaAssignementUITests.debug.xcconfig */,
+				A3940D0FF760A9BCDAD99670 /* Pods-CavistaAssignement-CavistaAssignementUITests.release.xcconfig */,
+				53D5EF1CE3BF93650FDC2CF7 /* Pods-CavistaAssignementTests.debug.xcconfig */,
+				E8B54BFE279A752ABC366024 /* Pods-CavistaAssignementTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B40518424D4746C0096AAF1 /* Build configuration list for PBXNativeTarget "CavistaAssignement" */;
 			buildPhases = (
+				03428D1568AAFCECB22BFF99 /* [CP] Check Pods Manifest.lock */,
 				5B40515624D4746A0096AAF1 /* Sources */,
 				5B40515724D4746A0096AAF1 /* Frameworks */,
 				5B40515824D4746A0096AAF1 /* Resources */,
+				87E01530D18C36F516B77174 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B40518724D4746C0096AAF1 /* Build configuration list for PBXNativeTarget "CavistaAssignementTests" */;
 			buildPhases = (
+				006CEFAF012529ABE93B9058 /* [CP] Check Pods Manifest.lock */,
 				5B40516C24D4746C0096AAF1 /* Sources */,
 				5B40516D24D4746C0096AAF1 /* Frameworks */,
 				5B40516E24D4746C0096AAF1 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B40518A24D4746C0096AAF1 /* Build configuration list for PBXNativeTarget "CavistaAssignementUITests" */;
 			buildPhases = (
+				7804DF2EA9B9E5DE7E5C264A /* [CP] Check Pods Manifest.lock */,
 				5B40517724D4746C0096AAF1 /* Sources */,
 				5B40517824D4746C0096AAF1 /* Frameworks */,
 				5B40517924D4746C0096AAF1 /* Resources */,
+				5551A9BD02620E3468FE389C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		006CEFAF012529ABE93B9058 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CavistaAssignementTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		03428D1568AAFCECB22BFF99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CavistaAssignement-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5551A9BD02620E3468FE389C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CavistaAssignement-CavistaAssignementUITests/Pods-CavistaAssignement-CavistaAssignementUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CavistaAssignement-CavistaAssignementUITests/Pods-CavistaAssignement-CavistaAssignementUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CavistaAssignement-CavistaAssignementUITests/Pods-CavistaAssignement-CavistaAssignementUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7804DF2EA9B9E5DE7E5C264A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CavistaAssignement-CavistaAssignementUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87E01530D18C36F516B77174 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CavistaAssignement/Pods-CavistaAssignement-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CavistaAssignement/Pods-CavistaAssignement-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CavistaAssignement/Pods-CavistaAssignement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B40515624D4746A0096AAF1 /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		5B40518524D4746C0096AAF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C91CE12D6D945CCC40F35683 /* Pods-CavistaAssignement.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +599,7 @@
 		};
 		5B40518624D4746C0096AAF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75776B6DF7981D2C23EE7DD1 /* Pods-CavistaAssignement.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +617,7 @@
 		};
 		5B40518824D4746C0096AAF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53D5EF1CE3BF93650FDC2CF7 /* Pods-CavistaAssignementTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +639,7 @@
 		};
 		5B40518924D4746C0096AAF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8B54BFE279A752ABC366024 /* Pods-CavistaAssignementTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +661,7 @@
 		};
 		5B40518B24D4746C0096AAF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DC3B94F4BF375A3730CBD70 /* Pods-CavistaAssignement-CavistaAssignementUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +681,7 @@
 		};
 		5B40518C24D4746C0096AAF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3940D0FF760A9BCDAD99670 /* Pods-CavistaAssignement-CavistaAssignementUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
