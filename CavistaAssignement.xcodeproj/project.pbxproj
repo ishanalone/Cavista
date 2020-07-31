@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B40515E24D4746A0096AAF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40515D24D4746A0096AAF1 /* AppDelegate.swift */; };
+		5B40516024D4746A0096AAF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40515F24D4746A0096AAF1 /* SceneDelegate.swift */; };
+		5B40516224D4746A0096AAF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40516124D4746A0096AAF1 /* ViewController.swift */; };
+		5B40516524D4746A0096AAF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B40516324D4746A0096AAF1 /* Main.storyboard */; };
+		5B40516724D4746C0096AAF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B40516624D4746C0096AAF1 /* Assets.xcassets */; };
+		5B40516A24D4746C0096AAF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B40516824D4746C0096AAF1 /* LaunchScreen.storyboard */; };
+		5B40517524D4746C0096AAF1 /* CavistaAssignementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40517424D4746C0096AAF1 /* CavistaAssignementTests.swift */; };
+		5B40518024D4746C0096AAF1 /* CavistaAssignementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40517F24D4746C0096AAF1 /* CavistaAssignementUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B40517124D4746C0096AAF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B40515224D4746A0096AAF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B40515924D4746A0096AAF1;
+			remoteInfo = CavistaAssignement;
+		};
+		5B40517C24D4746C0096AAF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B40515224D4746A0096AAF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B40515924D4746A0096AAF1;
+			remoteInfo = CavistaAssignement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B40515A24D4746A0096AAF1 /* CavistaAssignement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CavistaAssignement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B40515D24D4746A0096AAF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B40515F24D4746A0096AAF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5B40516124D4746A0096AAF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B40516424D4746A0096AAF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B40516624D4746C0096AAF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B40516924D4746C0096AAF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B40516B24D4746C0096AAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B40517024D4746C0096AAF1 /* CavistaAssignementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CavistaAssignementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B40517424D4746C0096AAF1 /* CavistaAssignementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavistaAssignementTests.swift; sourceTree = "<group>"; };
+		5B40517624D4746C0096AAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B40517B24D4746C0096AAF1 /* CavistaAssignementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CavistaAssignementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B40517F24D4746C0096AAF1 /* CavistaAssignementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavistaAssignementUITests.swift; sourceTree = "<group>"; };
+		5B40518124D4746C0096AAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B40515724D4746A0096AAF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B40516D24D4746C0096AAF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B40517824D4746C0096AAF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B40515124D4746A0096AAF1 = {
+			isa = PBXGroup;
+			children = (
+				5B40515C24D4746A0096AAF1 /* CavistaAssignement */,
+				5B40517324D4746C0096AAF1 /* CavistaAssignementTests */,
+				5B40517E24D4746C0096AAF1 /* CavistaAssignementUITests */,
+				5B40515B24D4746A0096AAF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B40515B24D4746A0096AAF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B40515A24D4746A0096AAF1 /* CavistaAssignement.app */,
+				5B40517024D4746C0096AAF1 /* CavistaAssignementTests.xctest */,
+				5B40517B24D4746C0096AAF1 /* CavistaAssignementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B40515C24D4746A0096AAF1 /* CavistaAssignement */ = {
+			isa = PBXGroup;
+			children = (
+				5B40515D24D4746A0096AAF1 /* AppDelegate.swift */,
+				5B40515F24D4746A0096AAF1 /* SceneDelegate.swift */,
+				5B40516124D4746A0096AAF1 /* ViewController.swift */,
+				5B40516324D4746A0096AAF1 /* Main.storyboard */,
+				5B40516624D4746C0096AAF1 /* Assets.xcassets */,
+				5B40516824D4746C0096AAF1 /* LaunchScreen.storyboard */,
+				5B40516B24D4746C0096AAF1 /* Info.plist */,
+			);
+			path = CavistaAssignement;
+			sourceTree = "<group>";
+		};
+		5B40517324D4746C0096AAF1 /* CavistaAssignementTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B40517424D4746C0096AAF1 /* CavistaAssignementTests.swift */,
+				5B40517624D4746C0096AAF1 /* Info.plist */,
+			);
+			path = CavistaAssignementTests;
+			sourceTree = "<group>";
+		};
+		5B40517E24D4746C0096AAF1 /* CavistaAssignementUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B40517F24D4746C0096AAF1 /* CavistaAssignementUITests.swift */,
+				5B40518124D4746C0096AAF1 /* Info.plist */,
+			);
+			path = CavistaAssignementUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B40515924D4746A0096AAF1 /* CavistaAssignement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B40518424D4746C0096AAF1 /* Build configuration list for PBXNativeTarget "CavistaAssignement" */;
+			buildPhases = (
+				5B40515624D4746A0096AAF1 /* Sources */,
+				5B40515724D4746A0096AAF1 /* Frameworks */,
+				5B40515824D4746A0096AAF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CavistaAssignement;
+			productName = CavistaAssignement;
+			productReference = 5B40515A24D4746A0096AAF1 /* CavistaAssignement.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B40516F24D4746C0096AAF1 /* CavistaAssignementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B40518724D4746C0096AAF1 /* Build configuration list for PBXNativeTarget "CavistaAssignementTests" */;
+			buildPhases = (
+				5B40516C24D4746C0096AAF1 /* Sources */,
+				5B40516D24D4746C0096AAF1 /* Frameworks */,
+				5B40516E24D4746C0096AAF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B40517224D4746C0096AAF1 /* PBXTargetDependency */,
+			);
+			name = CavistaAssignementTests;
+			productName = CavistaAssignementTests;
+			productReference = 5B40517024D4746C0096AAF1 /* CavistaAssignementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B40517A24D4746C0096AAF1 /* CavistaAssignementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B40518A24D4746C0096AAF1 /* Build configuration list for PBXNativeTarget "CavistaAssignementUITests" */;
+			buildPhases = (
+				5B40517724D4746C0096AAF1 /* Sources */,
+				5B40517824D4746C0096AAF1 /* Frameworks */,
+				5B40517924D4746C0096AAF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B40517D24D4746C0096AAF1 /* PBXTargetDependency */,
+			);
+			name = CavistaAssignementUITests;
+			productName = CavistaAssignementUITests;
+			productReference = 5B40517B24D4746C0096AAF1 /* CavistaAssignementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B40515224D4746A0096AAF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Ishan Alone";
+				TargetAttributes = {
+					5B40515924D4746A0096AAF1 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					5B40516F24D4746C0096AAF1 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 5B40515924D4746A0096AAF1;
+					};
+					5B40517A24D4746C0096AAF1 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 5B40515924D4746A0096AAF1;
+					};
+				};
+			};
+			buildConfigurationList = 5B40515524D4746A0096AAF1 /* Build configuration list for PBXProject "CavistaAssignement" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B40515124D4746A0096AAF1;
+			productRefGroup = 5B40515B24D4746A0096AAF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B40515924D4746A0096AAF1 /* CavistaAssignement */,
+				5B40516F24D4746C0096AAF1 /* CavistaAssignementTests */,
+				5B40517A24D4746C0096AAF1 /* CavistaAssignementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B40515824D4746A0096AAF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B40516A24D4746C0096AAF1 /* LaunchScreen.storyboard in Resources */,
+				5B40516724D4746C0096AAF1 /* Assets.xcassets in Resources */,
+				5B40516524D4746A0096AAF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B40516E24D4746C0096AAF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B40517924D4746C0096AAF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B40515624D4746A0096AAF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B40516224D4746A0096AAF1 /* ViewController.swift in Sources */,
+				5B40515E24D4746A0096AAF1 /* AppDelegate.swift in Sources */,
+				5B40516024D4746A0096AAF1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B40516C24D4746C0096AAF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B40517524D4746C0096AAF1 /* CavistaAssignementTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B40517724D4746C0096AAF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B40518024D4746C0096AAF1 /* CavistaAssignementUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B40517224D4746C0096AAF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B40515924D4746A0096AAF1 /* CavistaAssignement */;
+			targetProxy = 5B40517124D4746C0096AAF1 /* PBXContainerItemProxy */;
+		};
+		5B40517D24D4746C0096AAF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B40515924D4746A0096AAF1 /* CavistaAssignement */;
+			targetProxy = 5B40517C24D4746C0096AAF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B40516324D4746A0096AAF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B40516424D4746A0096AAF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B40516824D4746C0096AAF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B40516924D4746C0096AAF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B40518224D4746C0096AAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B40518324D4746C0096AAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B40518524D4746C0096AAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CavistaAssignement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alone.CavistaAssignement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B40518624D4746C0096AAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CavistaAssignement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alone.CavistaAssignement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B40518824D4746C0096AAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CavistaAssignementTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alone.CavistaAssignementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CavistaAssignement.app/CavistaAssignement";
+			};
+			name = Debug;
+		};
+		5B40518924D4746C0096AAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CavistaAssignementTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alone.CavistaAssignementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CavistaAssignement.app/CavistaAssignement";
+			};
+			name = Release;
+		};
+		5B40518B24D4746C0096AAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CavistaAssignementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alone.CavistaAssignementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CavistaAssignement;
+			};
+			name = Debug;
+		};
+		5B40518C24D4746C0096AAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CavistaAssignementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alone.CavistaAssignementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CavistaAssignement;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B40515524D4746A0096AAF1 /* Build configuration list for PBXProject "CavistaAssignement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B40518224D4746C0096AAF1 /* Debug */,
+				5B40518324D4746C0096AAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B40518424D4746C0096AAF1 /* Build configuration list for PBXNativeTarget "CavistaAssignement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B40518524D4746C0096AAF1 /* Debug */,
+				5B40518624D4746C0096AAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B40518724D4746C0096AAF1 /* Build configuration list for PBXNativeTarget "CavistaAssignementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B40518824D4746C0096AAF1 /* Debug */,
+				5B40518924D4746C0096AAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B40518A24D4746C0096AAF1 /* Build configuration list for PBXNativeTarget "CavistaAssignementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B40518B24D4746C0096AAF1 /* Debug */,
+				5B40518C24D4746C0096AAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B40515224D4746A0096AAF1 /* Project object */;
+}
