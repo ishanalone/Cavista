@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,18 @@
 		5B40516A24D4746C0096AAF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B40516824D4746C0096AAF1 /* LaunchScreen.storyboard */; };
 		5B40517524D4746C0096AAF1 /* CavistaAssignementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40517424D4746C0096AAF1 /* CavistaAssignementTests.swift */; };
 		5B40518024D4746C0096AAF1 /* CavistaAssignementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40517F24D4746C0096AAF1 /* CavistaAssignementUITests.swift */; };
+		5B40518E24D481A10096AAF1 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40518D24D481A10096AAF1 /* ItemCollectionViewCell.swift */; };
+		5B40519324D544CD0096AAF1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40519224D544CD0096AAF1 /* HomeViewModel.swift */; };
+		5B40519724D545440096AAF1 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40519524D545440096AAF1 /* APIClient.swift */; };
+		5B40519824D545440096AAF1 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40519624D545440096AAF1 /* APIRouter.swift */; };
+		5B40519D24D545A60096AAF1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40519A24D545A60096AAF1 /* Extensions.swift */; };
+		5B40519E24D545A60096AAF1 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40519B24D545A60096AAF1 /* Helper.swift */; };
+		5B40519F24D545A60096AAF1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40519C24D545A60096AAF1 /* Constants.swift */; };
+		5B4051A224D546BB0096AAF1 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4051A124D546BB0096AAF1 /* DataModel.swift */; };
+		5B4051A424D5483B0096AAF1 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4051A324D5483B0096AAF1 /* HomeRouter.swift */; };
+		5B4051A724D549F70096AAF1 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4051A624D549F70096AAF1 /* Observer.swift */; };
+		5B4051AA24D55C320096AAF1 /* RealmDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4051A924D55C320096AAF1 /* RealmDataModel.swift */; };
+		5B4051AC24D55FCB0096AAF1 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4051AB24D55FCB0096AAF1 /* RealmManager.swift */; };
 		5E77AC36C6A183D9C6C0127B /* Pods_CavistaAssignementTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F9D6B253B91065A10623A6 /* Pods_CavistaAssignementTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +68,18 @@
 		5B40517B24D4746C0096AAF1 /* CavistaAssignementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CavistaAssignementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B40517F24D4746C0096AAF1 /* CavistaAssignementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavistaAssignementUITests.swift; sourceTree = "<group>"; };
 		5B40518124D4746C0096AAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B40518D24D481A10096AAF1 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		5B40519224D544CD0096AAF1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		5B40519524D545440096AAF1 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		5B40519624D545440096AAF1 /* APIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		5B40519A24D545A60096AAF1 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5B40519B24D545A60096AAF1 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		5B40519C24D545A60096AAF1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5B4051A124D546BB0096AAF1 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		5B4051A324D5483B0096AAF1 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		5B4051A624D549F70096AAF1 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		5B4051A924D55C320096AAF1 /* RealmDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDataModel.swift; sourceTree = "<group>"; };
+		5B4051AB24D55FCB0096AAF1 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		5DC3B94F4BF375A3730CBD70 /* Pods-CavistaAssignement-CavistaAssignementUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CavistaAssignement-CavistaAssignementUITests.debug.xcconfig"; path = "Target Support Files/Pods-CavistaAssignement-CavistaAssignementUITests/Pods-CavistaAssignement-CavistaAssignementUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		75776B6DF7981D2C23EE7DD1 /* Pods-CavistaAssignement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CavistaAssignement.release.xcconfig"; path = "Target Support Files/Pods-CavistaAssignement/Pods-CavistaAssignement.release.xcconfig"; sourceTree = "<group>"; };
 		A3940D0FF760A9BCDAD99670 /* Pods-CavistaAssignement-CavistaAssignementUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CavistaAssignement-CavistaAssignementUITests.release.xcconfig"; path = "Target Support Files/Pods-CavistaAssignement-CavistaAssignementUITests/Pods-CavistaAssignement-CavistaAssignementUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +150,12 @@
 		5B40515C24D4746A0096AAF1 /* CavistaAssignement */ = {
 			isa = PBXGroup;
 			children = (
+				5B4051A824D55C0C0096AAF1 /* RealmWrapper */,
+				5B4051A524D549D90096AAF1 /* DataBinding */,
+				5B4051A024D5469A0096AAF1 /* Models */,
+				5B40519924D545820096AAF1 /* Helper */,
+				5B40519424D544F50096AAF1 /* NetworkLayer */,
+				5B40519124D544AE0096AAF1 /* ViewModel */,
 				5B40515D24D4746A0096AAF1 /* AppDelegate.swift */,
 				5B40515F24D4746A0096AAF1 /* SceneDelegate.swift */,
 				5B40516124D4746A0096AAF1 /* ViewController.swift */,
@@ -133,6 +163,7 @@
 				5B40516624D4746C0096AAF1 /* Assets.xcassets */,
 				5B40516824D4746C0096AAF1 /* LaunchScreen.storyboard */,
 				5B40516B24D4746C0096AAF1 /* Info.plist */,
+				5B40518D24D481A10096AAF1 /* ItemCollectionViewCell.swift */,
 			);
 			path = CavistaAssignement;
 			sourceTree = "<group>";
@@ -155,6 +186,59 @@
 			path = CavistaAssignementUITests;
 			sourceTree = "<group>";
 		};
+		5B40519124D544AE0096AAF1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5B40519224D544CD0096AAF1 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5B40519424D544F50096AAF1 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				5B40519524D545440096AAF1 /* APIClient.swift */,
+				5B40519624D545440096AAF1 /* APIRouter.swift */,
+				5B4051A324D5483B0096AAF1 /* HomeRouter.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		5B40519924D545820096AAF1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5B40519C24D545A60096AAF1 /* Constants.swift */,
+				5B40519A24D545A60096AAF1 /* Extensions.swift */,
+				5B40519B24D545A60096AAF1 /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		5B4051A024D5469A0096AAF1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5B4051A124D546BB0096AAF1 /* DataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5B4051A524D549D90096AAF1 /* DataBinding */ = {
+			isa = PBXGroup;
+			children = (
+				5B4051A624D549F70096AAF1 /* Observer.swift */,
+			);
+			path = DataBinding;
+			sourceTree = "<group>";
+		};
+		5B4051A824D55C0C0096AAF1 /* RealmWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				5B4051A924D55C320096AAF1 /* RealmDataModel.swift */,
+				5B4051AB24D55FCB0096AAF1 /* RealmManager.swift */,
+			);
+			path = RealmWrapper;
+			sourceTree = "<group>";
+		};
 		AA418838AFA9EC13DB0C1A06 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +249,6 @@
 				53D5EF1CE3BF93650FDC2CF7 /* Pods-CavistaAssignementTests.debug.xcconfig */,
 				E8B54BFE279A752ABC366024 /* Pods-CavistaAssignementTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -408,7 +491,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B4051A724D549F70096AAF1 /* Observer.swift in Sources */,
+				5B40519F24D545A60096AAF1 /* Constants.swift in Sources */,
+				5B4051AC24D55FCB0096AAF1 /* RealmManager.swift in Sources */,
+				5B4051A424D5483B0096AAF1 /* HomeRouter.swift in Sources */,
+				5B40519D24D545A60096AAF1 /* Extensions.swift in Sources */,
+				5B4051A224D546BB0096AAF1 /* DataModel.swift in Sources */,
+				5B40519724D545440096AAF1 /* APIClient.swift in Sources */,
+				5B40519324D544CD0096AAF1 /* HomeViewModel.swift in Sources */,
 				5B40516224D4746A0096AAF1 /* ViewController.swift in Sources */,
+				5B40518E24D481A10096AAF1 /* ItemCollectionViewCell.swift in Sources */,
+				5B40519824D545440096AAF1 /* APIRouter.swift in Sources */,
+				5B40519E24D545A60096AAF1 /* Helper.swift in Sources */,
+				5B4051AA24D55C320096AAF1 /* RealmDataModel.swift in Sources */,
 				5B40515E24D4746A0096AAF1 /* AppDelegate.swift in Sources */,
 				5B40516024D4746A0096AAF1 /* SceneDelegate.swift in Sources */,
 			);

@@ -8,6 +8,8 @@ target 'CavistaAssignement' do
   # Pods for CavistaAssignement
     pod 'SnapKit', '~> 5.0.0'
     pod 'Alamofire', '~> 5.2'
+    pod 'Kingfisher', '~> 5.0'
+    pod 'RealmSwift'
   target 'CavistaAssignementTests' do
     inherit! :search_paths
     # Pods for testing
