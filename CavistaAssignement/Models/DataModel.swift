@@ -7,14 +7,19 @@
 //
 
 import Foundation
+import Kingfisher
 
-struct DataModel  {
-    let data : [HomeData]?
-}
 
-struct HomeData : Codable {
-    let id: String?
-    let type : String?
+struct ObjectDataModel : Codable {
+    let id : String
+    let type : DataType
     let date : String?
     let data : String?
+    var imgWidth : Double?
+    var imgHeight : Double?
+    var isImageLoaded : Bool?
 }
+
+
+    
+    

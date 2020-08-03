@@ -37,8 +37,11 @@ public final class Container {
         }
     }
     
-    func fetchData(with predicate:NSPredicate, classObject: Object.Type) -> Results<Object>{
-        return self.realm.objects(classObject).filter(predicate)
+    func fetchData(of classObject: Object.Type, with predicate:NSPredicate? ) -> Results<Object>{
+        if let predicate = predicate{
+            return self.realm.objects(classObject).filter(predicate)
+        }
+        return self.realm.objects(classObject)
     }
 }
 

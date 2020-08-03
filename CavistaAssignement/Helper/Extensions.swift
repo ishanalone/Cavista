@@ -9,21 +9,34 @@
 import Foundation
 import UIKit
 
-extension UIStoryboard {
-    static func mainStoryboard() -> UIStoryboard { return UIStoryboard(name: "Main", bundle: Bundle.main) }
-}
-
-extension UIButton {
-    func makeCornerRadiusWithRadi(radius:CGFloat) {
-        self.layer.cornerRadius = radius
-        self.layer.masksToBounds = true
-    }
-}
 
 extension UIView {
     func makeViewCornerRadiusWithRadi(radius:CGFloat) {
         self.layer.cornerRadius = radius
         self.layer.masksToBounds = true
+    }
+    
+    func dropShadow() {
+        self.layer.shadowPath = UIBezierPath(rect: self.bounds).cgPath
+        self.layer.shadowRadius = 3
+        self.layer.shadowOffset = CGSize(width: 2.0, height: 2.0)
+        self.layer.shadowOpacity = 0.5
+    }
+    
+    func addBorder(withBorderColor color: UIColor, isTransparent: Bool) {
+        self.layer.borderWidth = 1.0
+        self.layer.borderColor = color.cgColor
+        self.layer.cornerRadius = 5.0
+        if isTransparent {
+            self.backgroundColor = .clear
+        }
+    }
+    
+    func roundCorners(corners: UIRectCorner, radius: CGFloat) {
+        let path = UIBezierPath(roundedRect: bounds, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
+        let mask = CAShapeLayer()
+        mask.path = path.cgPath
+        layer.mask = mask
     }
 }
 

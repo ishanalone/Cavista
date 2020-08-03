@@ -10,6 +10,7 @@ target 'CavistaAssignement' do
     pod 'Alamofire', '~> 5.2'
     pod 'Kingfisher', '~> 5.0'
     pod 'RealmSwift'
+    pod 'ReachabilitySwift'
   target 'CavistaAssignementTests' do
     inherit! :search_paths
     # Pods for testing

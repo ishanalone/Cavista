@@ -23,7 +23,7 @@ class APIClient {
         }
     }
     
-    static func getHomeData(completion:@escaping (AFResult<[ItemDataModel]>)->Void){
+    static func getHomeData(completion:@escaping (AFResult<[ObjectDataModel]>)->Void){
         do {
             let homeRouter = try HomeRouter.home.asURLRequest()
             performRequest(route: homeRouter, completion:completion )

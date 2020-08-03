@@ -9,6 +9,20 @@
 /* Begin PBXBuildFile section */
 		275D9B8ECF675BC6A667C866 /* Pods_CavistaAssignement_CavistaAssignementUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4967FE9647B92AD96711940D /* Pods_CavistaAssignement_CavistaAssignementUITests.framework */; };
 		381CDB7AE11F156E92BACFD8 /* Pods_CavistaAssignement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5334E6B408AE557117796205 /* Pods_CavistaAssignement.framework */; };
+		5B0E172A24D832010039846D /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E172924D832010039846D /* ImageViewModel.swift */; };
+		5B0E172D24D83C590039846D /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E172C24D83C590039846D /* ImagesViewController.swift */; };
+		5B24ADDC24D85E340085EB21 /* ContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B24ADDB24D85E340085EB21 /* ContainerCell.swift */; };
+		5B24ADDE24D864160085EB21 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B24ADDD24D864160085EB21 /* TextViewController.swift */; };
+		5B24ADE024D8645A0085EB21 /* BaseObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B24ADDF24D8645A0085EB21 /* BaseObjectViewController.swift */; };
+		5B24ADE224D8658B0085EB21 /* TextViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B24ADE124D8658B0085EB21 /* TextViewModel.swift */; };
+		5B24ADE424D865B80085EB21 /* BaseObjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B24ADE324D865B80085EB21 /* BaseObjectViewModel.swift */; };
+		5B24ADE724D86FE30085EB21 /* BaseCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B24ADE624D86FE30085EB21 /* BaseCollectionLayout.swift */; };
+		5B24ADE924D870D30085EB21 /* ImageCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B24ADE824D870D30085EB21 /* ImageCollectionLayout.swift */; };
+		5B24ADEB24D871C10085EB21 /* TextCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B24ADEA24D871C10085EB21 /* TextCollectionLayout.swift */; };
+		5B24ADED24D8797E0085EB21 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B24ADEC24D8797E0085EB21 /* ImageCell.swift */; };
+		5B24ADEF24D87C1E0085EB21 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B24ADEE24D87C1E0085EB21 /* TextCell.swift */; };
+		5B24ADF124D8A59A0085EB21 /* FullImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B24ADF024D8A59A0085EB21 /* FullImageViewController.swift */; };
+		5B24ADF324D8A5A80085EB21 /* FullTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B24ADF224D8A5A80085EB21 /* FullTextViewController.swift */; };
 		5B40515E24D4746A0096AAF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40515D24D4746A0096AAF1 /* AppDelegate.swift */; };
 		5B40516024D4746A0096AAF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40515F24D4746A0096AAF1 /* SceneDelegate.swift */; };
 		5B40516224D4746A0096AAF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40516124D4746A0096AAF1 /* ViewController.swift */; };
@@ -18,7 +32,7 @@
 		5B40517524D4746C0096AAF1 /* CavistaAssignementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40517424D4746C0096AAF1 /* CavistaAssignementTests.swift */; };
 		5B40518024D4746C0096AAF1 /* CavistaAssignementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40517F24D4746C0096AAF1 /* CavistaAssignementUITests.swift */; };
 		5B40518E24D481A10096AAF1 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40518D24D481A10096AAF1 /* ItemCollectionViewCell.swift */; };
-		5B40519324D544CD0096AAF1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40519224D544CD0096AAF1 /* HomeViewModel.swift */; };
+		5B40519324D544CD0096AAF1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40519224D544CD0096AAF1 /* ViewModel.swift */; };
 		5B40519724D545440096AAF1 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40519524D545440096AAF1 /* APIClient.swift */; };
 		5B40519824D545440096AAF1 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40519624D545440096AAF1 /* APIRouter.swift */; };
 		5B40519D24D545A60096AAF1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40519A24D545A60096AAF1 /* Extensions.swift */; };
@@ -54,6 +68,20 @@
 		5334E6B408AE557117796205 /* Pods_CavistaAssignement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CavistaAssignement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53D5EF1CE3BF93650FDC2CF7 /* Pods-CavistaAssignementTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CavistaAssignementTests.debug.xcconfig"; path = "Target Support Files/Pods-CavistaAssignementTests/Pods-CavistaAssignementTests.debug.xcconfig"; sourceTree = "<group>"; };
 		53F9D6B253B91065A10623A6 /* Pods_CavistaAssignementTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CavistaAssignementTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0E172924D832010039846D /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
+		5B0E172C24D83C590039846D /* ImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewController.swift; sourceTree = "<group>"; };
+		5B24ADDB24D85E340085EB21 /* ContainerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerCell.swift; sourceTree = "<group>"; };
+		5B24ADDD24D864160085EB21 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		5B24ADDF24D8645A0085EB21 /* BaseObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseObjectViewController.swift; sourceTree = "<group>"; };
+		5B24ADE124D8658B0085EB21 /* TextViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewModel.swift; sourceTree = "<group>"; };
+		5B24ADE324D865B80085EB21 /* BaseObjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseObjectViewModel.swift; sourceTree = "<group>"; };
+		5B24ADE624D86FE30085EB21 /* BaseCollectionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionLayout.swift; sourceTree = "<group>"; };
+		5B24ADE824D870D30085EB21 /* ImageCollectionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionLayout.swift; sourceTree = "<group>"; };
+		5B24ADEA24D871C10085EB21 /* TextCollectionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCollectionLayout.swift; sourceTree = "<group>"; };
+		5B24ADEC24D8797E0085EB21 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		5B24ADEE24D87C1E0085EB21 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		5B24ADF024D8A59A0085EB21 /* FullImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullImageViewController.swift; sourceTree = "<group>"; };
+		5B24ADF224D8A5A80085EB21 /* FullTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullTextViewController.swift; sourceTree = "<group>"; };
 		5B40515A24D4746A0096AAF1 /* CavistaAssignement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CavistaAssignement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B40515D24D4746A0096AAF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B40515F24D4746A0096AAF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,7 +97,7 @@
 		5B40517F24D4746C0096AAF1 /* CavistaAssignementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavistaAssignementUITests.swift; sourceTree = "<group>"; };
 		5B40518124D4746C0096AAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B40518D24D481A10096AAF1 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
-		5B40519224D544CD0096AAF1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		5B40519224D544CD0096AAF1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		5B40519524D545440096AAF1 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		5B40519624D545440096AAF1 /* APIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
 		5B40519A24D545A60096AAF1 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -125,6 +153,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5B0E172B24D83C3A0039846D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B24ADE524D86F990085EB21 /* CollectionViewLayouts */,
+				5B0E172E24D83EAD0039846D /* CollectionViewCells */,
+				5B40516124D4746A0096AAF1 /* ViewController.swift */,
+				5B0E172C24D83C590039846D /* ImagesViewController.swift */,
+				5B24ADDD24D864160085EB21 /* TextViewController.swift */,
+				5B24ADDF24D8645A0085EB21 /* BaseObjectViewController.swift */,
+				5B24ADF024D8A59A0085EB21 /* FullImageViewController.swift */,
+				5B24ADF224D8A5A80085EB21 /* FullTextViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5B0E172E24D83EAD0039846D /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				5B40518D24D481A10096AAF1 /* ItemCollectionViewCell.swift */,
+				5B24ADDB24D85E340085EB21 /* ContainerCell.swift */,
+				5B24ADEC24D8797E0085EB21 /* ImageCell.swift */,
+				5B24ADEE24D87C1E0085EB21 /* TextCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		5B24ADE524D86F990085EB21 /* CollectionViewLayouts */ = {
+			isa = PBXGroup;
+			children = (
+				5B24ADE624D86FE30085EB21 /* BaseCollectionLayout.swift */,
+				5B24ADE824D870D30085EB21 /* ImageCollectionLayout.swift */,
+				5B24ADEA24D871C10085EB21 /* TextCollectionLayout.swift */,
+			);
+			path = CollectionViewLayouts;
+			sourceTree = "<group>";
+		};
 		5B40515124D4746A0096AAF1 = {
 			isa = PBXGroup;
 			children = (
@@ -156,14 +220,13 @@
 				5B40519924D545820096AAF1 /* Helper */,
 				5B40519424D544F50096AAF1 /* NetworkLayer */,
 				5B40519124D544AE0096AAF1 /* ViewModel */,
+				5B0E172B24D83C3A0039846D /* Controllers */,
 				5B40515D24D4746A0096AAF1 /* AppDelegate.swift */,
 				5B40515F24D4746A0096AAF1 /* SceneDelegate.swift */,
-				5B40516124D4746A0096AAF1 /* ViewController.swift */,
 				5B40516324D4746A0096AAF1 /* Main.storyboard */,
 				5B40516624D4746C0096AAF1 /* Assets.xcassets */,
 				5B40516824D4746C0096AAF1 /* LaunchScreen.storyboard */,
 				5B40516B24D4746C0096AAF1 /* Info.plist */,
-				5B40518D24D481A10096AAF1 /* ItemCollectionViewCell.swift */,
 			);
 			path = CavistaAssignement;
 			sourceTree = "<group>";
@@ -189,7 +252,10 @@
 		5B40519124D544AE0096AAF1 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				5B40519224D544CD0096AAF1 /* HomeViewModel.swift */,
+				5B40519224D544CD0096AAF1 /* ViewModel.swift */,
+				5B0E172924D832010039846D /* ImageViewModel.swift */,
+				5B24ADE124D8658B0085EB21 /* TextViewModel.swift */,
+				5B24ADE324D865B80085EB21 /* BaseObjectViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -493,19 +559,33 @@
 			files = (
 				5B4051A724D549F70096AAF1 /* Observer.swift in Sources */,
 				5B40519F24D545A60096AAF1 /* Constants.swift in Sources */,
+				5B24ADEB24D871C10085EB21 /* TextCollectionLayout.swift in Sources */,
 				5B4051AC24D55FCB0096AAF1 /* RealmManager.swift in Sources */,
+				5B24ADEF24D87C1E0085EB21 /* TextCell.swift in Sources */,
 				5B4051A424D5483B0096AAF1 /* HomeRouter.swift in Sources */,
 				5B40519D24D545A60096AAF1 /* Extensions.swift in Sources */,
 				5B4051A224D546BB0096AAF1 /* DataModel.swift in Sources */,
+				5B24ADE724D86FE30085EB21 /* BaseCollectionLayout.swift in Sources */,
+				5B24ADE224D8658B0085EB21 /* TextViewModel.swift in Sources */,
+				5B24ADE024D8645A0085EB21 /* BaseObjectViewController.swift in Sources */,
 				5B40519724D545440096AAF1 /* APIClient.swift in Sources */,
-				5B40519324D544CD0096AAF1 /* HomeViewModel.swift in Sources */,
+				5B40519324D544CD0096AAF1 /* ViewModel.swift in Sources */,
 				5B40516224D4746A0096AAF1 /* ViewController.swift in Sources */,
 				5B40518E24D481A10096AAF1 /* ItemCollectionViewCell.swift in Sources */,
+				5B24ADE424D865B80085EB21 /* BaseObjectViewModel.swift in Sources */,
 				5B40519824D545440096AAF1 /* APIRouter.swift in Sources */,
 				5B40519E24D545A60096AAF1 /* Helper.swift in Sources */,
 				5B4051AA24D55C320096AAF1 /* RealmDataModel.swift in Sources */,
+				5B0E172D24D83C590039846D /* ImagesViewController.swift in Sources */,
 				5B40515E24D4746A0096AAF1 /* AppDelegate.swift in Sources */,
+				5B24ADF124D8A59A0085EB21 /* FullImageViewController.swift in Sources */,
+				5B24ADE924D870D30085EB21 /* ImageCollectionLayout.swift in Sources */,
+				5B0E172A24D832010039846D /* ImageViewModel.swift in Sources */,
 				5B40516024D4746A0096AAF1 /* SceneDelegate.swift in Sources */,
+				5B24ADDE24D864160085EB21 /* TextViewController.swift in Sources */,
+				5B24ADDC24D85E340085EB21 /* ContainerCell.swift in Sources */,
+				5B24ADED24D8797E0085EB21 /* ImageCell.swift in Sources */,
+				5B24ADF324D8A5A80085EB21 /* FullTextViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
