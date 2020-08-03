@@ -2,7 +2,7 @@
 //  ItemCollectionViewCell.swift
 //  CavistaAssignement
 //
-//  Created by Sushant Alone on 31/07/20.
+//  Created by Ishan Alone on 31/07/20.
 //  Copyright © 2020 Ishan Alone. All rights reserved.
 //
 

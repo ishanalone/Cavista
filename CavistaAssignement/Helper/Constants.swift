@@ -1,8 +1,8 @@
 //
 //  Constants.swift
 //
-//  Created by Sushant Alone on 14/06/20.
-//  Copyright © 2020 Sushant Alone. All rights reserved.
+//  Created by Ishan Alone on 14/06/20.
+//  Copyright © 2020 Ishan Alone. All rights reserved.
 //
 
 import Foundation

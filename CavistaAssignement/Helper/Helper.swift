@@ -2,8 +2,8 @@
 //  Helper.swift
 //  Jaarx
 //
-//  Created by Sushant Alone on 15/06/20.
-//  Copyright © 2020 Sushant Alone. All rights reserved.
+//  Created by Ishan Alone on 15/06/20.
+//  Copyright © 2020 Ishan Alone. All rights reserved.
 //
 
 import Foundation

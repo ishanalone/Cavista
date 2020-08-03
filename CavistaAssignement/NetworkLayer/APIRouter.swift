@@ -3,7 +3,7 @@
 //  Jaarx
 //
 //  Created by Sumit Kumar on 14/06/20.
-//  Copyright © 2020 Sushant Alone. All rights reserved.
+//  Copyright © 2020 Ishan Alone. All rights reserved.
 //
 
 import Foundation

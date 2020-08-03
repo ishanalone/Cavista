@@ -2,7 +2,7 @@
 //  FullImageViewController.swift
 //  CavistaAssignement
 //
-//  Created by Sushant Alone on 04/08/20.
+//  Created by Ishan Alone on 04/08/20.
 //  Copyright © 2020 Ishan Alone. All rights reserved.
 //
 
