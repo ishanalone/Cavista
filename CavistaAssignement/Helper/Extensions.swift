@@ -2,7 +2,7 @@
 //  Extensions.swift
 //  Jaarx
 //
-//  Created by Sumit Kumar on 14/07/20.
+//  Created by Ishan Alone on 14/07/20.
 //  Copyright © 2020 Ishan Alone. All rights reserved.
 //
 
